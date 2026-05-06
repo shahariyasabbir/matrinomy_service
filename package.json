@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "cd matrimonys_website && npm run dev",
-    "build": "cd matrimonys_website && npm run build",
-    "lint": "cd matrimonys_website && npm run lint",
-    "preview": "cd matrimonys_website && npm run preview"
+    "dev": "npm --prefix matrimonys_website run dev",
+    "build": "npm --prefix matrimonys_website run build",
+    "lint": "npm --prefix matrimonys_website run lint",
+    "preview": "npm --prefix matrimonys_website run preview"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.4",
