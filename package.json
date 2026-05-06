@@ -1,0 +1,18 @@
+{
+  "name": "matrimonys_website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd matrimonys_website && npm run dev",
+    "build": "cd matrimonys_website && npm run build",
+    "lint": "cd matrimonys_website && npm run lint",
+    "preview": "cd matrimonys_website && npm run preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.2.4"
+  }
+}
